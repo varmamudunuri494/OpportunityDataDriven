@@ -27,3 +27,13 @@ Creating a New Opportunity
     TypeText           *Close Date                 ${Close Date}
     TypeText           Next Step                   ${Next Step}
     TypeText           Amount                      ${Amount}
+    VerifyText         Additional Information
+    TypeText           Order Number                 ${Order Number}
+    TypeText           Main Competitor(s)          Ravi Infrastructure of India
+    TypeText           Tracking Number             25632145
+    PickList           Delivery/Installation Status                            Yet to begin
+    VerifyText         Description Information
+    TypeText           Description                 Creating a new Opportunity for Varma Industries
+    ClickText          Save                        partial_match=False
+    UseModal           Off
+    Sleep              3s
