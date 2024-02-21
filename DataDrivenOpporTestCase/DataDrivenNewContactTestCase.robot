@@ -14,3 +14,5 @@ Creating a New Opportunity
     Appstate           Home
     LaunchApp          Sales
     ClickText          Opportunities
+    ClickText          New
+    UseModal           On
