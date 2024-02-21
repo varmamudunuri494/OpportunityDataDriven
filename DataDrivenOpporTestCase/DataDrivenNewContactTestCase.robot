@@ -8,9 +8,9 @@ Suite Teardown         Close All Browsers
 Resource               ../DataDrivenCommonResource/DataDrivenCommon.robot
 
 *** Test Cases ***
-Creating a New Opportunity
+Creating a New Opportunity through Data Driven
     [Tags]             Opportunities
-    [Documentation]    Creating a new Opportunities
+    [Documentation]    Creating a new Opportunity through Data Driven
     Appstate           Home
     LaunchApp          Sales
     ClickText          Opportunities
