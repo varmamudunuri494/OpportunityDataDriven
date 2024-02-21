@@ -18,4 +18,6 @@ Creating a New Opportunity
     UseModal           On
     TypeText           *Opportunity Name           ${Opportunity Name}
     ComboBox           Search Accounts...          ${Account Name}
+    PickList           Type                        ${Type}
+    PickList           Lead Source                 ${Lead Source}
     
