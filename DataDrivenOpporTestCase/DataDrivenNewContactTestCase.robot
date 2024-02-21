@@ -20,4 +20,5 @@ Creating a New Opportunity
     ComboBox           Search Accounts...          ${Account Name}
     PickList           Type                        ${Type}
     PickList           Lead Source                 ${Lead Source}
+    PickList           *Opportunity Currency       ${Opportunity Currency}
     
