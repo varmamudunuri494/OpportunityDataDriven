@@ -17,4 +17,5 @@ Creating a New Opportunity
     ClickText          New
     UseModal           On
     TypeText           *Opportunity Name           ${Opportunity Name}
+    ComboBox           Search Accounts...          ${Account Name}
     
