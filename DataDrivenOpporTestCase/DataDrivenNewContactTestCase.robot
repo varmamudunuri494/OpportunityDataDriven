@@ -28,12 +28,11 @@ Creating a New Opportunity
     TypeText           Next Step                   ${Next Step}
     TypeText           Amount                      ${Amount}
     VerifyText         Additional Information
-    TypeText           Order Number                 ${Order Number}
-    TypeText           Main Competitor(s)          Ravi Infrastructure of India
-    TypeText           Tracking Number             25632145
-    PickList           Delivery/Installation Status                            Yet to begin
+    TypeText           Order Number                ${Order Number}
+    TypeText           Tracking Number             ${Tracking Number}
+    PickList           Delivery/Installation Status                            ${DeliveryInstallation Status}
     VerifyText         Description Information
-    TypeText           Description                 Creating a new Opportunity for Varma Industries
+    TypeText           Description                 ${Description}
     ClickText          Save                        partial_match=False
     UseModal           Off
     Sleep              3s
