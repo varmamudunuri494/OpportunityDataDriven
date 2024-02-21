@@ -16,3 +16,5 @@ Creating a New Opportunity
     ClickText          Opportunities
     ClickText          New
     UseModal           On
+    TypeText           *Opportunity Name           ${Opportunity Name}
+    
