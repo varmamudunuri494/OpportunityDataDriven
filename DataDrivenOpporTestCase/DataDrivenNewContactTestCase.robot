@@ -25,7 +25,6 @@ Creating a New Opportunity through Data Driven
     TypeText           height                      ${height}
     PickList           *Stage                      ${Stage}
     TypeText           *Close Date                 ${Close Date}
-    #TypeText           *Close Date                 27/10/2025
     TypeText           Next Step                   ${Next Step}
     TypeText           Amount                      ${Amount}
     VerifyText         Additional Information
