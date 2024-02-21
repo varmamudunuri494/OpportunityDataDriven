@@ -21,4 +21,9 @@ Creating a New Opportunity
     PickList           Type                        ${Type}
     PickList           Lead Source                 ${Lead Source}
     PickList           *Opportunity Currency       ${Opportunity Currency}
-    
+    TypeText           radius                      ${radius}
+    TypeText           height                      ${height}
+    PickList           *Stage                      ${Stage}
+    TypeText           *Close Date                 ${Close Date}
+    TypeText           Next Step                   ${Next Step}
+    TypeText           Amount                      ${Amount}
