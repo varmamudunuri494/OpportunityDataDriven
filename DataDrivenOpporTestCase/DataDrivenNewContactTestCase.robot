@@ -44,5 +44,13 @@ Editing the Existing Record
     LaunchApp          Sales
     ClickText          Opportunities
     ClickText          Select a List View: Opportunities
-    TypeText           //div[@class\='slds-form-element__control slds-grow slds-input-has-icon slds-input-has-icon_left-right']//input[@class\='slds-input']    Varma Industries\n
-    
+    TypeText           //div[@class\='slds-form-element__control slds-grow slds-input-has-icon slds-input-has-icon_left-right']//input[@class\='slds-input']    Anish Oil Agency\n
+    ClickText          Anish Oil Agency
+    ClickText          Details
+    ClickText          Edit Next Step
+    TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='TrackingNumber__c']    256321471280
+    TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='NextStep']    Need to Analysis Varma
+    PickList           *Stage                      Qualification
+    PickList           Lead Source                 Phone Inquiry
+    TypeText           Description                 Editing Varma Industries ${ContactName}
+    ClickText          Save                        partial_match=False
