@@ -36,3 +36,13 @@ Creating a New Opportunity through Data Driven
     ClickText          Save                        partial_match=False
     UseModal           Off
     Sleep              3s
+
+Editing the Existing Record
+    [Tags]             Edit the Anish Oil Agency Opportunities
+    [Documentation]    Editing the Anish Oil Agency Opportunity
+    Appstate           Home
+    LaunchApp          Sales
+    ClickText          Opportunities
+    ClickText          Select a List View: Opportunities
+    TypeText           //div[@class\='slds-form-element__control slds-grow slds-input-has-icon slds-input-has-icon_left-right']//input[@class\='slds-input']    Varma Industries\n
+    
