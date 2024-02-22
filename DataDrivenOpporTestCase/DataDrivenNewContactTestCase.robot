@@ -48,9 +48,9 @@ Editing the Existing Record
     ClickText          Anish Oil Agency
     ClickText          Details
     ClickText          Edit Next Step
-    TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='TrackingNumber__c']    256321471280
-    TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='NextStep']    Need to Analysis Varma
-    PickList           *Stage                      Qualification
-    PickList           Lead Source                 Phone Inquiry
-    TypeText           Description                 Editing Varma Industries ${ContactName}
+    TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='TrackingNumber__c']    ${Edit_TrackingNumber}
+    TypeText           //div[@class\='slds-form-element__control slds-grow']//input[@name\='NextStep']    ${Edit_NextStep}
+    PickList           *Stage                      ${Edit_Stage}
+    PickList           Lead Source                 ${Edit_LeadSource}
+    TypeText           Description                 ${Edit_Description}
     ClickText          Save                        partial_match=False
